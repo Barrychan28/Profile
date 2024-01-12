@@ -1,0 +1,128 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:24px;
+  box-sizing: border-box;
+  margin:0;
+}
+
+body{
+  
+    background-color: rgb(241, 241, 241);
+    background-image: url(https://wallpapertag.com/wallpaper/full/1/a/1/350829-widescreen-website-background-1920x1080-windows-xp.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width:100%;
+    height: auto;
+}
+.container{
+  max-width: 960px;
+  margin:30px auto;
+  line-height: 1.7;
+}
+
+
+
+nav{
+  text-align: center;
+  margin: 0 auto;
+  background-color: #0d6efd;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  color:azure;
+  min-height: 60px;
+}
+
+nav a{
+  color:azure;
+  text-decoration: none;
+}
+.container{
+  max-width: 960px;
+  margin:0 auto;
+  line-height: 1.7;
+}
+.flex-grid 
+{
+  display: flex;
+  max-width: 960px;
+  margin:0 auto;
+  text-align: center;
+  overflow-wrap: normal;
+}
+.buyBtn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 20px 2px;
+  cursor: pointer;
+}
+.col {
+flex: 1;
+}
+h1{
+  font-size: 240%;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+h2{
+  font-size: 180%;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+img{
+  height: 200px;
+}
+footer{
+  text-align: center;
+  margin: 36px 0px 0px 0px ;
+}
+form{
+  text-align: center;
+}
+input{
+  margin-bottom: 20px;
+}
+.clientMenu{
+  padding-left:10px;
+  position: relative;
+  display: block;
+  float: left;
+}
+.thankyouText{
+  text-align:center;
+  font-size: 140%;
+  margin: 80px 0;
+}
+.staffMenu{
+  padding-right:10px;
+  position: relative;
+  display: block;
+  float: right;
+}
+ .orders{
+  border:1px solid black;
+} 
+nav ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0px 6px;
+}
+
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 960px) {
+  .flex-grid {
+      display: block;
+    }
+}
+

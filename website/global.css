@@ -1,0 +1,323 @@
+html, body {
+    height: 100%;
+    font-size: 16px;
+    font-family:Roboto;
+  }
+
+  .navbar{
+    font-weight: bold;
+  }
+
+#topNavbar {
+    background-color: #e3f2fd;
+}
+
+.btn {
+    color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.btn:hover {
+    color: black !important;
+}
+
+#secNavbar {
+    background-color: #cdeaff;
+    
+}
+
+.nav-link{
+    font-size: 16px;
+}
+.nav-link:hover {
+    color: #119afc !important;
+}
+
+@media (min-width: 992px) {
+    #secNavbarCollapse {
+        width: 100% !important;
+        display: block !important;
+    }
+}
+
+/*header dropdown*/
+.navbar .nav-item .dropdown-menu {
+    display: none;
+}
+
+
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+}
+/**/
+
+.title{
+    font-size: 48px;
+}
+
+/* index */
+
+.small{
+    max-width: 100%;
+}
+
+/*footer*/
+footer{
+    bottom: 0px;
+}
+.footerLine{
+    background-color: #79d1b2 !important;
+    height: 5px !important;
+}
+
+.footerInfo {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.text-reset:hover {
+    color: #79d1b2 !important;
+}
+
+
+/* contact us */
+.info{
+    min-height: 60vh;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(114, 114, 114);
+    
+}
+
+.my-form .btn {
+    background-color: #cdeaff;
+    border-radius: 5px;
+    padding :10px;
+    margin:20px 10px;
+}
+.my-form .btn:hover {
+    background-color: #119afc;
+    color: black;
+}
+.my-form .form-control {
+    border-radius: 0;
+}
+
+.form-group{
+    padding:10px;
+}
+
+.form .btn{
+    background-color: #88c5fd;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.form .btn:hover{
+    background-color: #119afc;
+    color: black;
+}
+
+
+
+.sideimg{
+    padding:20px;
+}
+
+/* event */
+#event_img{
+    width: 100%;
+}
+
+
+
+/* game */
+.gameBody {
+    text-align:center;
+    font-family: helvetica;
+    margin: 40px;
+  }
+  canvas {
+    border: 2px solid rgb(151, 149, 149);
+  }
+
+
+  /*  */
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    transition: .3s ease;
+    background-color: #ffffff;
+}
+
+#booth{
+    overflow: hidden; 
+    position: relative;
+    border-radius: 40px;
+}
+.text {
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 100%;
+}
+
+.event_title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.client{
+    font-size: 20px;
+}
+.type{
+    font-size: 20px;
+}
+
+.four-text {
+    position: absolute;
+    color: black;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 100%;
+}
+.four-text .event_title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.four-text.client{
+    font-size: 12px;
+}
+.four-text.type{
+    font-size: 12px;
+}
+
+.booth-img{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.small{
+   width: 100%;
+}
+
+.box:hover .booth-img{
+    transform: scale(1.2);
+    transition: 1s all ease-in-out;
+}
+
+.box:hover .small{
+    transform: scale(1.2);
+    transition: 1s all ease-in-out;
+}
+
+.box:hover .overlay{
+    opacity: 0%;
+}
+
+@media (max-width:1400px) {
+
+.four-text .event_title{
+   font-size: 25px;
+   font-weight: 600;
+}
+.four-text .client{
+   font-size: 12px;
+}
+.four-text .type{
+   font-size: 12px;
+}
+}
+
+
+@media (max-width:991px) {
+
+.event_title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.client{
+    font-size: 12px;
+}
+.type{
+    font-size: 12px;
+}
+
+
+.four-text .event_title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.four-text .client{
+    font-size: 12px;
+}
+.four-text .type{
+    font-size: 12px;
+}
+}
+
+@media (max-width:767px) {
+
+.event_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.client{
+    font-size: 12px;
+}
+.type{
+    font-size: 12px;
+}
+
+
+.four-text .event_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.four-text .client{
+    font-size: 12px;
+}
+.four-text .type{
+    font-size: 12px;
+}
+
+}
+
+/* health */
+
+.card-footer{
+    background-color: #ffffff;
+}
+
+.card-footer button{
+    background-color: #cdeaff;
+}
+
+.card-footer button:hover{
+background-color: #119afc;
+}

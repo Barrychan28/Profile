@@ -1,0 +1,50 @@
+.info{
+    min-height: 60vh;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(114, 114, 114);
+    
+}
+.my-form {
+    color: #afd8ff;
+   
+}
+.my-form .btn {
+    background-color: #88c5fd;
+    color: #ffffff;
+    border-radius: 5px;
+    padding :10px;
+    margin:20px 10px;
+}
+.my-form .btn:hover {
+    background-color: #afd8ff;
+    color: #000000;
+    
+}
+.my-form .form-control {
+    border-radius: 0;
+}
+
+.form-group{
+    padding:10px;
+}
+
+
+.sideimg{
+    padding:20px;
+}
+
+form .btn{
+    background-color: #88c5fd;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.my-form .btn:hover {
+    background-color: #afd8ff;
+    color: #000000;
+    
+}
