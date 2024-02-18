@@ -1,8 +1,8 @@
 [
-    { "id": 1, "name": "apple", "price": 5, "image": "apple.jpg", "discription": "red and fresh" },
-    { "id": 2, "name": "orange", "price": 3, "image": "orange.jpeg", "discription": "orange and fresh" },
-    { "id": 3, "name": "banana", "price": 3, "image": "banana.jpg", "discription": "yellow and long" },
-    { "id": 4, "name": "blueberry", "price": 10, "image": "blueberry.jpg", "discription": "blue and small" },
-    { "id": 5, "name": "mango", "price": 8, "image": "mango.jpg", "discription": "sweet and fragrant" },
-    { "id": 6, "name": "pear", "price": 6, "image": "pear.jpg", "discription": "green" }
+    { "id": 1, "name": "apple", "price": 5, "image": "apple.jpg", "description": "red and fresh" },
+    { "id": 2, "name": "orange", "price": 3, "image": "orange.jpeg", "description": "orange and fresh" },
+    { "id": 3, "name": "banana", "price": 3, "image": "banana.jpg", "description": "yellow and long" },
+    { "id": 4, "name": "blueberry", "price": 10, "image": "blueberry.jpg", "description": "blue and small" },
+    { "id": 5, "name": "mango", "price": 8, "image": "mango.jpg", "description": "sweet and fragrant" },
+    { "id": 6, "name": "pear", "price": 6, "image": "pear.jpg", "description": "green" }
 ]
